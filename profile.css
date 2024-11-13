@@ -1,0 +1,100 @@
+/* Profile.css */
+
+.profile-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background to match dashboard */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow for a card effect */
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.profile-container h2 {
+    background-color: #333; /* Dark header background */
+    color: white; /* White text for contrast */
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.profile-details {
+    margin-top: 20px;
+}
+
+.profile-details label {
+    display: block; /* Stack labels */
+    margin-bottom: 10px; /* Space below labels */
+}
+
+.profile-details input,
+.profile-details select {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc; /* Border styling */
+}
+
+.action-buttons {
+    margin-top: 20px; /* Space above buttons */
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkorange; /* Hover effect */
+}
+
+.btn-logout {
+    background-color: red; /* Different color for logout */
+}
+
+.btn-logout:hover {
+    background-color: darkred; /* Darker red on hover */
+}
+
+/* Booking History Styles */
+.booking-history {
+    margin-top: 20px; /* Space above booking history */
+}
+
+.booking-history ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+.booking-history li {
+    border-bottom: 1px solid #ccc; /* Separator between bookings */
+}
+
+.profile-details p {
+    color: #333;
+}
+/* Profile.css */
+
+/* Add this new style for the back button */
+.btn-back {
+    background-color: #333; /* Blue background for the back button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Space below the button */
+}
+
+.btn-back:hover {
+    background-color: grey; /* Darker blue on hover */
+}
+body{
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+}
+
+.booking-history p {
+    color: #333;
+}

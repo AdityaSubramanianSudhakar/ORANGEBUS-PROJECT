@@ -1,0 +1,240 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.landing {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  height: calc(110vh - 80px); /* Adjust height to account for Navbar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px; /* Adjust this value to match the height of the Navbar */
+}
+
+.about {
+  background-color: #f8f9fa; /* Light background color */
+  color: #333; /* Dark text color */
+  padding: 120px 20px; /* Add padding for the About section */
+}
+
+.about-content {
+  max-width: 800px; /* Limit the width of the content */
+  margin: 0 auto; /* Center the content with margin */
+  padding: 20px; /* Add padding inside the content */
+  background: white; /* White background for the content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.about-content h2 {
+  color: #FFA500; /* Orange color for headings */
+}
+
+.about-content h3 {
+  margin-top: 20px; /* Space above subheadings */
+}
+
+.about-content p {
+  line-height: 1.6; /* Improve readability */
+}
+
+.about-content ul {
+  list-style-type: disc; /* Bullet points for the list */
+  margin-left: 20px; /* Indent the list */
+}
+
+.landing .btn {
+  padding: 10px 20px;
+  background-color: #ff7e5f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.contact {
+  padding: 40px 20px; /* Add padding for the contact section */
+  background-color: #f9f9f9; /* Optional: Different background color for contrast */
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto; /* Center the content */
+  text-align: center; /* Center text */
+}
+
+.contact-content h2 {
+  margin-bottom: 30px; /* Space below the heading */
+}
+
+.contact-content p {
+  font-size: 20px; /* Adjust font size for the paragraph */
+  margin-bottom: 70px; /* Space below paragraphs */
+}
+
+.form-group {
+  margin-bottom:50px; /* Space between form groups */
+  text-align: left; /* Align labels and inputs to the left */
+}
+
+label {
+  display: block; /* Make labels block elements */
+  margin-bottom: 10px; /* Space below labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for inputs */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 4px; /* Rounded corners */
+}
+
+button {
+  padding: 10px 15px; /* Padding for the button */
+  background-color: orange; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: darkorange; /* Darker color on hover */
+}
+
+.alert {
+  margin-top: 20px; /* Space above the alert */
+  padding: 0px; /* Padding inside the alert */
+  background-color: #dff0d8; /* Light green background */
+  color: #3c763d; /* Dark green text color */
+  border: 2px solid #d6e9c6; /* Border styling */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center the text */
+}
+
+/* Add this to your existing CSS file */
+.footer {
+  background-color: #36454F; /* Dark background */
+  color: white; /* White text */
+  padding: 20px 0; /* Padding for top and bottom */
+  text-align: center; /* Center text */
+}
+
+.footer-content {
+  max-width: 1200px; /* Max width for the footer content */
+  margin: 0 auto; /* Center the content */
+}
+
+.footer-links {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.footer-links li {
+  display: inline; /* Display links inline */
+  margin: 0 15px; /* Space between links */
+}
+
+.footer-links a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Add this to your existing CSS file or create a new one for the login page */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+  font-family: 'Arial', sans-serif; /* Font family */
+}
+
+.login-form {
+  background-color: white; /* White background for the form */
+  padding: 40px; /* Increased padding for a spacious feel */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  width: 400px; /* Fixed width for the form */
+  text-align: center; /* Center text */
+}
+
+h2 {
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Dark text color */
+}
+
+.login-page h2 {
+  color: white;
+}
+
+.login-input-u{
+  width: 50%; /* Width of the input field */
+  padding: 12px; /* Padding for input */
+  margin: 10px 0; /* Margin for spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  box-shadow: none; /* No shadow by default */
+}
+
+.login-input-p{
+  width: 100%; /* Width of the input field */
+  padding: 12px; /* Padding for input */
+  margin: 10px 0; /* Margin for spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  box-shadow: none; /* No shadow by default */
+}
+
+.login-input:focus {
+  border-color: #ff7e5f; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.login-button {
+  width: 100%; /* Full width */
+  padding: 15px; /* Increased padding for button */
+  background-color: #ff7e5f; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 18px; /* Increased font size */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.login-button:hover {
+  background-color: #feb47b; /* Lighter color on hover */
+}
+.login-page p
+{
+  color: black;
+}
+
+.alert {
+  margin-top: 20px; /* Space above the alert */
+  color: #d9534f; /* Red color for error messages */
+}
+.contact p {
+  color: #333;
+}
+.about p {
+  color: #333;
+}

@@ -1,0 +1,139 @@
+/* Dashboard.css */
+
+.dashboard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+.dashboard-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Full width */
+}
+
+.dashboard-header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.dashboard-header nav li {
+  margin-left: 20px;
+}
+
+.dashboard-header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.dashboard-content {
+  width: 100%; /* Full width for content */
+  max-width: 800px; /* Limit max width for better readability */
+}
+
+.dashboard-content h2 {
+  color: #333;
+}
+
+.search-form,
+.bus-selection,
+.payment-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.search-form h2,
+.bus-selection h2,
+.payment-section h2 {
+  margin-bottom: 20px;
+}
+
+.bus-selection p,
+.payment-section p {
+  color: #333; /* Ensure text color is consistent */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc; /* Border styling */
+}
+
+.bus-option {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+ background-color: darkorange; /* Hover effect */
+}
+
+/* Alert styling */
+.alert {
+ background-color: #333; /* Light green background */
+ color: #333; /* Dark green text */
+ padding: 15px;
+ border: 1px solid #d6e9c6; /* Border styling */
+ border-radius: 5px; /* Rounded corners */
+ margin-top: 20px; /* Space above the alert */
+ display: flex;
+ justify-content: space-between; /* Align items in alert */
+ align-items: center; /* Center vertically */
+}
+
+/* Footer styling */
+.dashboard-footer {
+ margin-top: 20px;
+ text-align: center; 
+}
+
+body {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+
+}
+
+.no-bus-message {
+  background-color: #ffcccb; /* Soft red background to indicate no buses */
+  color: #333; /* Dark text to maintain readability */
+  padding: 15px;
+  border-radius: 5px; /* Rounded corners for consistency */
+  border: 1px solid #ff7e5f; /* Match the gradient theme's color */
+  text-align: center; /* Center the text */
+  margin-top: 20px; /* Space above the message */
+  font-weight: bold; /* Make the message stand out */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.no-bus-message p {
+    color: #333;
+}

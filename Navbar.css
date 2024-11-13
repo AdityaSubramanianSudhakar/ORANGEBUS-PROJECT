@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Padding for the navbar */
+    background-color: #36454F;
+    color: white;
+    position: fixed; /* Position the navbar at the top */
+    top: 0; /* Stick it to the top */
+    width: 100%; /* Make it span the full width */
+    z-index: 1000; /* Ensure it's on top of other elements */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .navbar-brand a {
+    text-decoration: none; /* Remove underline */
+    color: #FFFFFF; /* Set text color to white */
+    transition: color 0.3s;
+  }
+  
+  .navbar-brand a:hover {
+    color: #ff7e5f; /* Change color on hover */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 40px; /* Space between links */
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff7e5f; /* Change color on hover */
+  }
+  
+  .login-btn {
+    background-color: #ff7e5f;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #feb47b; /* Change background on hover */
+  }
